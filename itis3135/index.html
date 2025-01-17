@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sadik Karout's Slay Kangaroo | ITIS-3135 | Home</title>
+        <link rel="stylesheet" href="styles/default.css">
+
+    </head><!--Contains background, unseen meta info-->
+    <body>
+        <header><!--Designates the top of segment of content-->
+            <h1>Sadik Karout's Slay Kangaroo | ITIS-3135 | Home</h1> 
+            <!--Allow the naming of sections of a website in decending order-->
+            <nav>
+                <!--This is the nav bar-->
+                <a href="./">Home</a>
+                <a href="introduction.html">Introduction</a>
+                <a href="contract.html">Contract</a>
+            </nav>
+        </header>
+        <main>
+            <h2>Welcome to my ITIS-3135 homepage!</h2>
+            <p>Please! Look around!</p>
+        </main>
+        <footer>
+            <nav>
+                <!--The targert="_blank" is used because these are links to external sights-->
+                <a href="https://webpages.charlotte.edu/skarout1/" target="_blank">Charlotte Website</a>
+                <a href="https://github.com/skarout1" target="_blank">Github</a>
+                <a href="https://skarout1.github.io/" target="_blank">Github.io</a>
+                <a href="https://www.freecodecamp.org/skarout1" target="_blank">freeCodeCamp</a>
+                <a href="https://www.codecademy.com/profiles/skarout1" target="_blank">Caodecademy</a>
+                <a href="http://www.linkedin.com/in/sadik-karout-49360319a" target="_blank">LInkedIn</a>
+            </nav>
+            <!--Adding in a copyright line-->
+            <!--& is an escape character showing the copyright symbol
+                this is similar to the \n in java-->
+            <p>Page Built By Sadik &copy; 2025</p>
+            <!--Invalidation buttons-->
+            <a id="validation-button-html">
+                <img src="images/htmlValidationButton.png" alt="html validation button">
+            </a>
+            <a id="validation-button-css">
+                <img src="images/cssValidationButton.png" alt="css validation button">
+            </a>
+        </footer>
+        <!--Script tags. Insures the entire body of content has loaded before attempting to run scripts
+        Each line refrences a call to the document object and more but uhhhh, yeah-->
+        <script>
+            document.getElementById("validation-button-html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation-button-css").setAttribute("href","https://jigaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+    </body>
+</html>
+
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My Homepage!</title>
+    </head>
+    <body>
+        <h1>Welcome to my Homepage</h1>
+        <p>Take a look at my links!</p>
+        <p>Especially look at my <a href="https://skarout1.github.io/itis3135/">ITIS-3135</a> site!</p>
+    </body>
+</html>
+-->
