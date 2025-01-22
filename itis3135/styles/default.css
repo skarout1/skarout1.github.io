@@ -1,6 +1,11 @@
 body {
-    background-color: greenyellow;
+    background-color: 
     text-align: center; 
+}
+hr {
+    height: 5px;
+    background-color: black;
+    border-color: black;
 }
 a {
     color: black;
