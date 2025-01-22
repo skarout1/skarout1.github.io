@@ -2,6 +2,10 @@ body {
     background-color: burlywood;
     text-align: center; 
 }
+.intro-link {
+    margin-left: auto;
+    margin-right: auto;
+}
 hr {
     height: 5px;
     background-color: black;
