@@ -1,3 +1,16 @@
 body {
-    background-color: greenyellow; 
+    background-color: greenyellow;
+    text-align: center; 
+}
+a {
+    color: black;
+  }
+a:visited {
+color: black;
+}
+a:hover {
+color: brown;
+}
+a:active {
+color: brown;
 }
