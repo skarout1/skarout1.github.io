@@ -1,5 +1,10 @@
+/*All of the {} are called rules for said element or class*/
 body {
-    background-color: burlywood;
+    /*rgb is a function, meaning it takes input i.e. (0, 0, 0) and performs a specific action changing color
+        rgb uses (RED, GREEN, BLUE) 0-255 with 0 = black and 255 = 100% that color
+        for rgb red, green, and blue are primary colors because at all value=255 they are white*/
+    background-color: rgb(222, 184, 135); /*burlywood*/
+  /*background-color: #DEB887; - exact same color in hexadecimal*/
     text-align: center; 
 }
 .intro-link {
