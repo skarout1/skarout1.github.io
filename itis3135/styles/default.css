@@ -8,8 +8,7 @@ body {
     text-align: center; 
 }
 .intro-link {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
 }
 .footer-links {
     padding: 20px;
@@ -20,18 +19,19 @@ ul {
 }
 hr {
     height: 5px;
-    background-color: black;
+    background-color: rgb(137, 13, 232);
     border-color: black;
+    border-width: 3px;
 }
 a {
     color: black;
   }
 a:visited {
-color: black;
+    color: black;
 }
 a:hover {
-color: brown;
+    color: brown;
 }
 a:active {
-color: brown;
+    color: brown;
 }
