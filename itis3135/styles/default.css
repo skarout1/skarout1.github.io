@@ -35,3 +35,9 @@ a:hover {
 a:active {
     color: brown;
 }
+li {
+    margin-top: 5px;
+}
+.course {
+    margin-top: 0;
+}
