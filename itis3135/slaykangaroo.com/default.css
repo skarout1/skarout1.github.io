@@ -1,0 +1,8 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+h1 h2 p {
+    text-align: center;
+    border: 10px solid black;
+}

@@ -41,3 +41,11 @@ li {
 .course {
     margin-top: 0;
 }
+.footer-link {
+    margin: 1px;
+    border-left: 1px;
+}
+.break {
+    margin: 2px;
+    border: 0;
+}
