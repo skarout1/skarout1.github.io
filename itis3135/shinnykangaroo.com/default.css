@@ -1,0 +1,19 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+h1 h2 p {
+    text-align: center;
+    border: 10px solid black;
+}
+.about {
+    border: solid black 2px;
+    padding: 5px 0;
+}
+.tag {
+    border: solid red;
+    padding: 2px;
+    left: center;
+    border-end-end-radius: 90%;
+    border-end-start-radius: 90%; 
+}
