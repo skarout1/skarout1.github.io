@@ -20,3 +20,12 @@ h1 h2 {
     border-end-end-radius: 90%;
     border-end-start-radius: 90%; 
 }
+a:visited {
+    color: black;
+}
+a:hover {
+    color: brown;
+}
+a:active {
+    color: brown;
+}
