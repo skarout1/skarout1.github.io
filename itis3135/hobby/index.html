@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    <title>Sadik Karout's Mototcycles</title>
+    <script>
+        var tooltips = document.querySelectorAll('.container span');
+        window.onmousemove = function (e) {
+            var x = (e.clientX + 20) + 'px',
+                y = (e.clientY + 20) + 'px';
+            for (var i = 0; i < container.length; i++) {
+                container[i].style.top = y;
+                container[i].style.left = x;
+            }
+        };
+    </script>
+    <style>
+        body {
+            text-align: center; 
+            max-width: 700px;
+            margin: 0 auto;
+            width: 95%;
+        }
+        img {
+            max-width: 400px;
+            max-height: 400px;
+        }
+        figcaption {
+            font-style: italic;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        #how td:nth-child(2) {
+            color: red;
+        }
+        #how td:nth-child(3) {
+            color: green;
+        }
+        tr:nth-child(7) {
+            font-weight: bold;
+        }
+        section:not(:first-of-type) {
+            display: none;
+        }
+        section:target {
+            display: block;
+        }
+        section:first-of-type:has(~ section:target) {
+            display: none;
+        }
+        .container img {
+            display: none;
+        }
+        .container:hover img {
+            display: block;
+            position: fixed;
+            top: 50%;
+            left: 50px;
+            overflow: hidden;
+            max-width: 200px;
+            max-height: 200px;
+        }
+        a {
+            color: black;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color: brown;
+        }
+        a:active {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sadik Karout's Motorcycles</h1>
+        <nav>
+            🏍️ <a href="#what-home">Home</a> 🏍️
+            <a href="#who-about">Who I ride with</a> 🏍️
+            <a href="#when">When it started</a> 🏍️
+            <a href="#how">How it happened</a> 🏍️
+            <a href="#why">Why I ride</a> 🏍️
+            <a href="#where">Where I ride</a> 🏍️
+            <a href="#ai-prompts">AI Prompts</a>
+        </nav>
+    </header>
+    <main>
+        <section id="what-home">
+            <h2>My Love for Mototcycles</h2>
+            <p>
+                You are probably wondering why I have this page, well it is because I love motorcycle. They are my biggest and sadly most expensive hobby. 
+                The page will go over all sorts of things reguarding my bikes.
+                It will showcase the bikes themselves, my skills, and so much more.
+                I hope that you enjoy my hobby and my motorcycles!
+            </p>
+            <figure>
+                <img src="images/pride.JPG" alt="My favorite bike">
+                    <figcaption>This is my pride and my joy, my Ducati Monster S4R</figcaption>
+            </figure>
+            <p>
+                I love working on motorcycles as well as ridign them around. That is a big part of the hobbie. I do my best to do all of the work on the bikes myself.
+                On my Ducati monster specifically I have rebuilt the clutch, chnaged the oil and oil filter, done a coolant flush, added frame sliders and more!
+            </p>
+            <figure>
+                <img src="images/work.JPG" alt="My favorite bike">
+                    <figcaption>Rebuilding my clutch with Hunter (behind the camera)</figcaption>
+            </figure>       
+            <video id="video" src=""></video>
+        </section>
+        <section id="who-about">
+            <h2>About me</h2>
+            <p>
+                My name is Sadik Karout I am currently study at UNCC, but that isn't why you're here.
+                I got into motorcycles with two of my good friends, Hunter and Josh.
+                We have all been riding and working on bikes together now for about 3-4 years. 
+            </p>
+            <figure>
+                <img src="images/boys.JPG" alt="My favorite bike">
+                    <figcaption>This is a picture of my friends Hunter (taking the photo), Josh (left) and me (right)!</figcaption>
+            </figure>
+            <p>
+                I have know Josh and Hunter for years now. We all grew up and worked at a summer camp together for a few years.
+                They have been close friends of mine ever since, and own the bikes with them has been has only brought us closer!
+            </p>
+        </section>
+        <section id="when">
+            <h2>When it really started</h2>
+            <p>
+                I got my first motorcycle in late 2021 when I was 21 years old. Within 6 months I had owned 5 total bikes. 
+                My two friends Josh and Hunter actually both got bikes before me, and this is what prompted me to jump in to the world of bikes!
+            </p>
+            <figure>
+                <img src="images/first.bike.PNG" alt="My favorite bike">
+                    <figcaption>This is my first bike I ever owned. A 1984 Yamaha Virago</figcaption>
+            </figure>
+            <p>
+                This Virago actually gave me many problems. I enjoyed working on the bike at first, but the issue was find parts for a bike that old that also fit correctly was nearly impossible.
+                So shortly after I bought this bike, I bought my second bike, a 2002 Kawasaki Vulcan 1500. I desperatley wanted a working running bike.
+            </p>
+            <figure>
+                <img src="images/vulcan.jpg" alt="My favorite bike">
+                    <figcaption>My second ever bike. A vulcan 1500</figcaption>
+            </figure>
+        </section>
+        <section id="how">
+            <h2>How I make it work</h2>
+            <p>
+                Something that you may be asking yourself is "wow this seems like a pretty exspensive hobby," and you would be correct. 
+                But the bikes don't tend to be the most exspensive part, because with few exceptions I have actually resold all of my bikes for more than I payed, breaking even or even making a profit.
+                The most exspensive part tends to be gear: helmest, gloves, pants, boots, headsets and so on. These aren't really re-sellable items. Not for a lot of money atleast.
+            </p>
+            <table>
+                <caption>Bike Overal Cost <i>(This does not include matience or registration cost)</i></caption>
+                <tr>
+                    <th>Bike</th>
+                    <th>Original Cost</th>
+                    <th>Selling Price</th>
+                    <th>Profit (negative or positive)</th>
+                </tr>
+                <tr>
+                    <td><a href="images/" class="container">Yamaha Virago<img src="images/first.bike.png" alt="My Yamaha Virago"></a></td>
+                    <td>$750</td>
+                    <td>$350</td>
+                    <td style="color:red">-$400</td>
+                </tr>
+                <tr>
+                    <td><a href="images/" class="container">Kawasaki Vulcan 1500<img src="images/vulcan.JPG" alt="My Kawasaki Vulcan"></a></td>
+                    <td>$3,000</td>
+                    <td>Traded away for a Ducati 749</td>
+                    <td style="color:red">-$3,000</td>
+                </tr>
+                <tr>
+                    <td><a href="images/" class="container">Ducati 749<img src="images/749.JPG" alt="My Ducati 749"></a></td>
+                    <td>Vulcan</td>
+                    <td>$5,800</td>
+                    <td style="color:green">$5,800</td>
+                </tr>
+                <tr>
+                    <td><a href="images/" class="container">Yamaha FZ6<img src="images/fz.jpg" alt="My Yamaha FZ6"></a></td>
+                    <td>$3,000</td>
+                    <td>$4,000</td>
+                    <td style="color:green">$1,000</td>
+                </tr>
+                <tr>
+                    <td><a href="images/" class="container">Triumph Daytona 675<img src="images/daytona.jpg" alt="My Triumph Daytona"></a></td>
+                    <td>$3,500</td>
+                    <td>$4,200</td>
+                    <td style="color:green">$700</td>
+                </tr>
+                <tr>
+                    <td>Totals</td>
+                    <td style="color:red">10,250</td>
+                    <td style="color:green">$14,350</td>
+                    <td style="color:green">$4,100</td>
+                </tr>
+            </table>
+            <p>
+                Funny enough I double checked my math on this numerous times because I thought that there was no way I had such a a high profit on my bikes.
+                I do not want this to convince you that bikes are cheap. This is not the normal case at all. Most people I know do not tend to sell their bikes for more than they bought them, especially if they're new.
+
+            </p>
+        </section>
+        <section id="why">
+            <h2>Why I got into mototcycles</h2>
+            <p>
+                Ever since I was a kid I have loved motorcycles. 
+                I always stared at them on the roads and imagined that I was on one very time I rode my bike around my neiborhood 
+                I always knew that one day I would own a motorcycle, but never had I imagined t0hat I would own 7 (not all at once). 
+                It wasn't bigger Harley-type bikes that I wanted, but rather sport bikes that I loved.
+            </p>
+            <figure>
+                <img src="images/fz62.JPG" alt="My FZ6">
+                    <figcaption>This is actually the first sports bike I ever got, A 2008 Yamaha FZ6</figcaption>
+            </figure> 
+            <p>
+                Once I got my FZ6 I immediatley fell in love and knew that I was done with big heavy cruisers like my Vulcan.
+                Following my FZ6 I scoured Facebook Marketplace constantly for new sports bikes that I could get.
+                I always dreamed of owning sports bikes and so called "crotch rockets" this is why I stuck with bikes for so long.
+                My next sports bikes were my monster S4R and then my first Super sport, a Ducati 749.
+            </p>
+            <figure>
+                <img src="images/749_s4r.jpg" alt="my 749 and S4R">
+                    <figcaption>My 749 (back) and S4R (front)</figcaption>
+            </figure>
+            <p>
+                Having both of these bikes was awesome because I had wanted a Ducati since I was a kid. So owning two was a dream come true!
+            </p> 
+        </section>
+        <section id="where">
+            <h2>Where I usually ride</h2>
+            <p>
+                I tend to ride up in the Hickory/Claremont area of North Carolina, about an hour north of Charlotte. 
+                This is where both of my buddies Josh and Hunter both live, and where we all keep our bikes.
+                
+            </p>
+            <figure>
+                <img src="images/mountain.JPG" alt="My Vulcan 1500">
+                    <figcaption>My friend Josh and I on our Kawasaki Vulcan 1500s</figcaption>
+            </figure>
+            <p>
+                In the picture above, Josh and I took our bikes up to Brown Mountain Overlook, about an hour and a half from where we kept our bikes in Claremont NC.
+                We also had taken our bikes up to Asheville NC quite a few times as well.
+            </p>
+            <p>
+                I have also taken a long road trip on my FZ6 a few months later. I road my bike from NC all the way down to ST Augustine Florida for spring break.
+                This was about an 8 hour ride. Taking me closer to 10 hours each way because you stop far more often on motorcycles.
+                I wouldn't recommend doing this!
+            </p>
+            <figure>
+                <img src="images/florida.JPG" alt="My FZ6 and I in Florida">
+                    <figcaption>Riding my bike on the roads of st Augustine. Picture credits to Terry Botto</figcaption>
+            </figure>
+        </section>
+        <section id="ai-prompts">
+            <h2>AI Prompts That I Used</h2>
+            <table>
+                <caption>AI Prompts Used</caption>
+                <tr>
+                    <th>My Prompt</th>
+                    <th>Input Code</th>
+                    <th>AI Code Given</th>
+                    <th>Result </th>
+                </tr>
+                <tr>
+                    <td>I am using HTML to create a website and need to hide the sections that are not currently being visited. This is what I have:
+                        section:where(:not(:first-child)) {
+                            display: none;
+                        }
+                        section:target {
+                            display: block;
+                        }
+                    </td>
+                    <td>
+                        <p>
+                            section:where(:not(:first-child)) {
+                                display: none;
+                            }
+                        </p>
+                        <p>
+                            section:target {
+                                display: block;
+                            }
+                        </p>
+                    </td>
+                    <td>
+                        <p>
+                            section:not(:first-of-type) {
+                                display: none;
+                            }
+                        </p>
+                        <p>
+                            section:target {
+                                display: block;
+                            }
+                        </p>
+                        <p>
+                        body:has(section:target) section:first-of-type {
+                            display: none;
+                        }
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Page Built By <a href="../sadikkaroutdesigns.com/"> Sadik Karout Designs</a> &copy; 2025</p>                
+        <!--Invalidation buttons-->
+        <a id="validation-button-html">
+            <img src="../images/htmlValidationButton.png" alt="html validation button">
+        </a>
+        <a id="validation-button-css">
+            <img src="../images/cssValidationButton.png" alt="css validation button">
+        </a>
+        <script>
+            document.getElementById("validation-button-html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation-button-css").setAttribute("href","https://jigaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+    </footer>
+</body>
+</html>
