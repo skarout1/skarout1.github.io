@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
-    <title>Sadik Karout's Mototcycles</title>
+    <title>Sadik Karout's Motorcycles</title>
     <script>
-        var tooltips = document.querySelectorAll('.container span');
         window.onmousemove = function (e) {
             var x = (e.clientX + 20) + 'px',
                 y = (e.clientY + 20) + 'px';
@@ -17,11 +16,20 @@
         };
     </script>
     <style>
-        body {
+        body:not(nav) {
             text-align: center; 
-            max-width: 700px;
+            max-width: 900px;
             margin: 0 auto;
             width: 95%;
+            background-color: bisque;
+            color: brown;
+            font-family: 'Franklin Gothic Medium', sans-serif;
+        }
+        h1 {
+            color:rgb(29, 107, 124);
+        }
+        h2 {
+            color:rgb(171, 37, 178);
         }
         img {
             max-width: 400px;
@@ -29,11 +37,16 @@
         }
         figcaption {
             font-style: italic;
+            font-family: Arial, sans-serif;
         }
         table, th, td {
             border: 1px solid black;
             border-collapse: collapse;
             padding: 5px;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
         }
         #how td:nth-child(2) {
             color: red;
@@ -62,20 +75,18 @@
             top: 50%;
             left: 50px;
             overflow: hidden;
-            max-width: 200px;
-            max-height: 200px;
+            max-width: 300px;
+            max-height: 300px;
         }
         a {
-            color: black;
-        }
-        a:visited {
-            color: black;
+            color: brown;
         }
         a:hover {
             color: brown;
         }
-        a:active {
+        table a {
             color: brown;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -94,41 +105,41 @@
     </header>
     <main>
         <section id="what-home">
-            <h2>My Love for Mototcycles</h2>
+            <h2>My Love for Motorcycles</h2>
             <p>
-                You are probably wondering why I have this page, well it is because I love motorcycle. They are my biggest and sadly most expensive hobby. 
-                The page will go over all sorts of things reguarding my bikes.
+                You are probably wondering why I have this page, well it is because I love motorcycles. They are my biggest and sadly most expensive hobby. 
+                The page will go over all sorts of things regarding my bikes.
                 It will showcase the bikes themselves, my skills, and so much more.
                 I hope that you enjoy my hobby and my motorcycles!
             </p>
             <figure>
-                <img src="images/pride.JPG" alt="My favorite bike">
+                <img src="images/pride.jpg" alt="My favorite bike">
                     <figcaption>This is my pride and my joy, my Ducati Monster S4R</figcaption>
             </figure>
             <p>
-                I love working on motorcycles as well as ridign them around. That is a big part of the hobbie. I do my best to do all of the work on the bikes myself.
-                On my Ducati monster specifically I have rebuilt the clutch, chnaged the oil and oil filter, done a coolant flush, added frame sliders and more!
+                I love working on motorcycles as well as riding them around. That is a big part of the hobby. I do my best to do all of the work on the bikes myself.
+                On my Ducati monster specifically I have rebuilt the clutch, changed the oil and oil filter, done a coolant flush, added frame sliders and more!
             </p>
             <figure>
-                <img src="images/work.JPG" alt="My favorite bike">
+                <img src="images/work.jpg" alt="My favorite bike">
                     <figcaption>Rebuilding my clutch with Hunter (behind the camera)</figcaption>
-            </figure>       
-            <video id="video" src=""></video>
+            </figure>
         </section>
         <section id="who-about">
             <h2>About me</h2>
             <p>
-                My name is Sadik Karout I am currently study at UNCC, but that isn't why you're here.
+                My name is Sadik Karout I am currently studying at UNCC, but that isn't why you're here.
                 I got into motorcycles with two of my good friends, Hunter and Josh.
                 We have all been riding and working on bikes together now for about 3-4 years. 
             </p>
             <figure>
-                <img src="images/boys.JPG" alt="My favorite bike">
+                <img src="images/boys.jpg" alt="My favorite bike">
                     <figcaption>This is a picture of my friends Hunter (taking the photo), Josh (left) and me (right)!</figcaption>
             </figure>
             <p>
-                I have know Josh and Hunter for years now. We all grew up and worked at a summer camp together for a few years.
-                They have been close friends of mine ever since, and own the bikes with them has been has only brought us closer!
+                I have known Josh and Hunter for years now. We all grew up and worked at a summer camp together for a few years.
+                They have been close friends of mine ever since, and owning the bikes with them has been has only brought us closer!
+                Pictured above was actually our first ever ride together, we went and got Mexican food.
             </p>
         </section>
         <section id="when">
@@ -138,7 +149,7 @@
                 My two friends Josh and Hunter actually both got bikes before me, and this is what prompted me to jump in to the world of bikes!
             </p>
             <figure>
-                <img src="images/first.bike.PNG" alt="My favorite bike">
+                <img src="images/first.bike.jpg" alt="My favorite bike">
                     <figcaption>This is my first bike I ever owned. A 1984 Yamaha Virago</figcaption>
             </figure>
             <p>
@@ -166,19 +177,19 @@
                     <th>Profit (negative or positive)</th>
                 </tr>
                 <tr>
-                    <td><a href="images/" class="container">Yamaha Virago<img src="images/first.bike.png" alt="My Yamaha Virago"></a></td>
+                    <td><a href="images/" class="container">Yamaha Virago<img src="images/first.bike.jpg" alt="My Yamaha Virago"></a></td>
                     <td>$750</td>
                     <td>$350</td>
                     <td style="color:red">-$400</td>
                 </tr>
                 <tr>
-                    <td><a href="images/" class="container">Kawasaki Vulcan 1500<img src="images/vulcan.JPG" alt="My Kawasaki Vulcan"></a></td>
+                    <td><a href="images/" class="container">Kawasaki Vulcan 1500<img src="images/vulcan.jpg" alt="My Kawasaki Vulcan"></a></td>
                     <td>$3,000</td>
-                    <td>Traded away for a Ducati 749</td>
+                    <td style="color:brown">Traded away for a Ducati 749</td>
                     <td style="color:red">-$3,000</td>
                 </tr>
                 <tr>
-                    <td><a href="images/" class="container">Ducati 749<img src="images/749.JPG" alt="My Ducati 749"></a></td>
+                    <td><a href="images/" class="container">Ducati 749<img src="images/749.jpg" alt="My Ducati 749"></a></td>
                     <td>Vulcan</td>
                     <td>$5,800</td>
                     <td style="color:green">$5,800</td>
@@ -212,12 +223,12 @@
             <h2>Why I got into mototcycles</h2>
             <p>
                 Ever since I was a kid I have loved motorcycles. 
-                I always stared at them on the roads and imagined that I was on one very time I rode my bike around my neiborhood 
+                I always stared at them on the roads and imagined that I was on one very time I rode my bike around my neighborhood 
                 I always knew that one day I would own a motorcycle, but never had I imagined t0hat I would own 7 (not all at once). 
                 It wasn't bigger Harley-type bikes that I wanted, but rather sport bikes that I loved.
             </p>
             <figure>
-                <img src="images/fz62.JPG" alt="My FZ6">
+                <img src="images/fz62.jpg" alt="My FZ6">
                     <figcaption>This is actually the first sports bike I ever got, A 2008 Yamaha FZ6</figcaption>
             </figure> 
             <p>
@@ -242,7 +253,7 @@
                 
             </p>
             <figure>
-                <img src="images/mountain.JPG" alt="My Vulcan 1500">
+                <img src="images/mountain.jpg" alt="My Vulcan 1500">
                     <figcaption>My friend Josh and I on our Kawasaki Vulcan 1500s</figcaption>
             </figure>
             <p>
@@ -255,7 +266,7 @@
                 I wouldn't recommend doing this!
             </p>
             <figure>
-                <img src="images/florida.JPG" alt="My FZ6 and I in Florida">
+                <img src="images/florida.jpg" alt="My FZ6 and I in Florida">
                     <figcaption>Riding my bike on the roads of st Augustine. Picture credits to Terry Botto</figcaption>
             </figure>
         </section>
@@ -270,13 +281,20 @@
                     <th>Result </th>
                 </tr>
                 <tr>
-                    <td>I am using HTML to create a website and need to hide the sections that are not currently being visited. This is what I have:
-                        section:where(:not(:first-child)) {
-                            display: none;
-                        }
-                        section:target {
-                            display: block;
-                        }
+                    <td>
+                        <p>
+                            I am using HTML to create a website and need to hide the sections that are not currently being visited. This is what I have:
+                        </p>
+                        <p>
+                            section:where(:not(:first-child)) {
+                                display: none;
+                            }
+                        </p>
+                        <p>  
+                            section:target {
+                                display: block;
+                            }
+                        </p>
                     </td>
                     <td>
                         <p>
@@ -306,6 +324,37 @@
                             display: none;
                         }
                         </p>
+                    </td>
+                    <td>
+                        Code did not work
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        this hides my first section the entire time, i need it to still be visible
+                    </td>
+                    <td>
+                        Previously output code
+                    </td>
+                    <td>
+                        <p>
+                            section:not(:first-of-type) {
+                                display: none;
+                            }
+                        </p>
+                        <p>
+                            section:target {
+                                display: block;
+                            }
+                        </p>
+                        <p>
+                            section:first-of-type:has(~ section:target) {
+                                display: none;
+                            }
+                        </p>
+                    </td>
+                    <td>
+                        My Final Code
                     </td>
                 </tr>
             </table>
