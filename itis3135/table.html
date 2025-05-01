@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div-output"></div>
+    <label for = "first-name">First Name</label>
+    <input type="text" id="first-name" placeholder="your name here" value="karout" size="10">
+    <button id="btn-do-it">Do it!</button>
+    
+    <label for = "nickname">Nickname</label>
+    <input type="text" id="nickname" placeholder="preffered name here" value="Zod" size="10">
+    <button id="btn-do-it">Do it!</button>
+    
+    <script>
+        const outputDiv = document.getElementById("div-output");
+        const firstNameInput = document.getElementById("first-name");
+        const nicknameInput = document.getElementById("nickname");
+        const doItButton = document.getElementById("btn-do-it");
+        
+        doItButton.addEventListener("click", ()=> {
+            outputDiv.innerHTML = `<h3>${firstNameInput.value} ${nicknameInput.value}</h3>`
+        })
+        
+    </script>
+</body>
+</html>
