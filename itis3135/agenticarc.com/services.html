@@ -5,7 +5,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="styles/default.css">    </head>
+        <script src="scripts/servicesSlider.js"></script>
+        <link rel="stylesheet" href="styles/default.css">
+        <link rel="stylesheet" href="styles/slider.css">    
+    </head>
     <body>
         <div>
             <header>
@@ -23,6 +26,25 @@
                 <figure>
                     <img src="images/agentichow.png" alt="how we can help you">
                 </figure>
+                <section>
+                    <h3>Our AI Services</h3>
+                    <div id="slides">
+                        <div class="slide" id="slide1">
+                            <h4>Prompt Engineering</h4>
+                            <p>Learn how to craft effective prompts to get the most out of AI systems.</p>
+                        </div>
+                        <div class="slide" id="slide2" style="display:none">
+                            <h4>Learn How AI Thinks</h4>
+                            <p>Learn about the best way to understand and interact with AI</p>
+                        </div>
+                        <div class="slide" id="slide3" style="display:none">
+                            <h4>AI Applications</h4>
+                            <p>Discover practical applications of AI in business and everyday life.</p>
+                        </div>
+                    </div>
+                    <button onclick="prevSlide()">Previous</button>
+                    <button onclick="nextSlide()">Next</button>
+                </section>
             </main>
         </div>
         <hr>
