@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="styles/default.css">
+        <link rel="stylesheet" href="styles/contact.css">
     </head>
     <body>
         <div>
@@ -17,6 +18,76 @@
         <div>
             <main>
                 <h2>Contact Us</h2>
+                <div class="contact-container">
+                    <div class="contact-form">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="error" id="name-error">Please enter your name</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="error" id="email-error">Please enter a valid email address</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Interested Service *</label>
+                                <select id="service" name="service" required>
+                                    <option value="">-- Select a Service --</option>
+                                    <option value="process-automation">Process Automation</option>
+                                    <option value="customer-service-ai">Customer Service AI</option>
+                                    <option value="predictive-analytics">Predictive Analytics</option>
+                                    <option value="data-analysis">Data Analysis</option>
+                                    <option value="consultation">General Consultation</option>
+                                </select>
+                                <div class="error" id="service-error">Please select a service</div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message *</label>
+                                <textarea id="message" name="message" required></textarea>
+                                <div class="error" id="message-error">Please enter your message</div>
+                            </div>
+                            
+                            <button type="submit">Send Message</button>
+                        </form>
+                        
+                        <div class="form-success" id="form-success">
+                            <h3>Thank you for contacting us!</h3>
+                            <p>We've received your message and will get back to you within 1-2 business days.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="contact-info">
+                        <h3>Our Information</h3>
+                </div>
+                <div class="contact-info">
+                    <p><strong>Address:</strong><br>123 Tech Avenue<br>Charlotte, NC 28202</p>
+                </div>
+                <div class="contact-info">
+                    <p><strong>Email:</strong><br>info@agenticarc.com</p>
+                </div>
+                <div class="contact-info">
+                    <p><strong>Phone:</strong><br>(555) 123-4567</p>
+                </div>
+                <div class="contact-info">
+                    <p><strong>Hours:</strong><br>Monday - Friday: 9am - 5pm<br>Saturday - Sunday: Closed</p>
+                </div>
             </main>
         </div>
         <hr>
