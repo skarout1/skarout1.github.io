@@ -22,7 +22,12 @@ body {
     padding: 20px 0;
     text-align: center;
   }
+  h1 {
+    color: black;
+    text-align: center;
+  }
   h2 {
+    text-align: center;
     color: #2d5bff;
   }
   hr {
@@ -36,4 +41,7 @@ body {
   }
   a:hover {
     text-decoration: underline;
+  }
+  nav {
+    text-align: center;
   }
