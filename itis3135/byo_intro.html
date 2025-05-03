@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sadik Karout's Shinny Kangaroo ♠️ ITIS-3135 ♠️ BYO Intro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/default.css">
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div>
+            <header>
+                <div data-include="components/header.html"></div>
+            </header>
+        </div>
+        <hr>
+        <div>
+            <main>
+                <h2>BYO Introduction Page</h2>
+                <h3>Time to BYO Intro page, please fill out the form below.</h3>
+                <div id="formContainer">
+                    <form id="introForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="Enter your full name" required><br><br>
+                        <label for="mascot">Mascot:</label>
+                        <input type="text" id="mascot" placeholder="Enter your mascot name" required><br><br>
+                        <label for="image">Image:</label>
+                        <input type="file" id="image" accept=".jpg,.png" required><br><br>
+                        <label for="caption">Image Caption:</label>
+                        <input type="text" id="caption" placeholder="Enter image description" required><br><br>
+                        <label for="personal">Personal Background:</label>
+                        <textarea id="personal" rows="3" placeholder="Share details about your personal background" required></textarea><br><br>
+                        <label for="professional">Professional Background:</label>
+                        <textarea id="professional" rows="3" placeholder="Share details about your work experience" required></textarea><br><br>
+                        <label for="academic">Academic Background:</label>
+                        <textarea id="academic" rows="3" placeholder="Share details about your education" required></textarea><br><br>
+                        <label for="webdev">Web Development Background:</label>
+                        <textarea id="webdev" rows="3" placeholder="Share your experience with web development" required></textarea><br><br>
+                        <label for="platform">Primary Computer Platform:</label>
+                        <input type="text" id="platform" placeholder="Enter your computer platform" required><br><br>
+                        <div id="coursesSection">
+                            <label>Courses:</label>
+                            <div id="courseInputs">
+                                <input type="text" class="course" placeholder="Enter course name">
+                                <button type="button" id="addCourse">Add</button>
+                            </div>
+                        </div><br>
+                        <label for="funny">Funny thing?</label>
+                        <textarea id="funny" rows="2" placeholder="Share something funny about yourself"></textarea><br><br>
+                        <label for="anything">Anything else?</label>
+                        <textarea id="anything" rows="2" placeholder="Share any additional information"></textarea><br><br>
+                        <input type="checkbox" id="agreement" required>
+                        <label for="agreement">I understand this is not password protected.</label><br><br>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </form>
+                </div>
+                <div id="resultContainer" style="display: none;">
+                    <div id="introResult"></div>
+                    <a href="#" id="resetLink">Create Another</a>
+                </div>
+            </main>
+        </div>
+        <hr>
+        <div>
+            <footer>
+                <div data-include="components/footer.html"></div>
+            </footer>
+        </div>
+        <script>
+            document.getElementById("validation-button-html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation-button-css").setAttribute("href","https://jigaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+        <script src="scripts/html.include.min.js"></script>
+        <script src="scripts/survey.js"></script>
+    </body>
+</html>
