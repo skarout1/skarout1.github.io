@@ -1,0 +1,22 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+.complex tr:nth-child(even) {
+    background-color: #777;
+    color: #fff; 
+}
+.none {
+    background-color: rgb(222, 184, 135);
+    color: black;
+}
+li {
+    text-align: left;
+}
+figure {
+    margin: 20px 0;
+}
+figcaption {
+    text-align: left;
+}

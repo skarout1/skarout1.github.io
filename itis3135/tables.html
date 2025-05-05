@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sadik Karout's Shinny Kangaroo ♠️ ITIS-3135 ♠️ Tables Page</title>
+        <!--charset specifies the character encoding used for the document (Unicode Transformation Format – 8-bit)-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/default.css">
+        <link rel="stylesheet" href="styles/tables.css">
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+    </head><!--Contains background, unseen meta info-->
+    <body>
+        <div>
+            <header><!--Designates the top of segment of content-->
+                <div data-include="components/header.html"></div>
+            </header>
+        </div>
+        <hr>
+        <div>
+            <main>
+                <h2>Tables Page</h2>
+                <h3>My Employees</h3>
+                <h3>My Tabular Data</h3>
+                <ol>
+                    <li>Allesandro Nesta - anesta@milan.com</li>
+                    <li>Christian Pulisic - cpulisic@milan.com</li>
+                    <li>Rafa Leao rleo@Milan.com</li>
+                    <li>Andrea Pirlo - anesta@milan.com</li>
+                    <li>Paolo Maldini - pmaldini@milan.com</li>
+                    <li>Franco Barsei fbaresi@milan.com</li>
+                    <li>Andriy Shevchenko - ashevchenko@milan.com</li>
+                    <li>Riccardo Kaka - rkaka@milan.com</li>
+                </ol>
+                <table>
+                    <caption><h3>Employee Simple Data Table</h3></caption>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Years Active</th>
+                    </tr>
+                    <tr>
+                        <td>Allesandro Nesta</td>
+                        <td>anesta@Milan.com</td>
+                        <td>3 years</td>
+                    </tr>
+                    <tr>
+                        <td>Chritian Pulisic</td>
+                        <td>cpulisic@Milan.com</td>
+                        <td>6 Months</td>
+                    </tr>
+                    <tr>
+                        <td>Rafa Leo</td>
+                        <td>rleo@Milan.com</td>
+                        <td>2 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Andrea Pirlo</td>
+                        <td>apilro@milan.com</td>
+                        <td>10 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Paolo Maldini</td>
+                        <td>$10,000,000</td>
+                        <td>25 Years</td>
+                    </tr>
+                    <tr>
+                        <td>Andriy Shevchenko</td>
+                        <td>ashevchenko@milan.com</td>
+                        <td>4 years</td>
+                    </tr>
+                    <tr>
+                        <td>Riccardo Kaka</td>
+                        <td>rkaka@milan.com</td>
+                        <td>8 Years</td>
+                    </tr>
+                </table>
+                <figure>
+                    <figcaption><b>Employee Complex Data Table</b></figcaption>
+                    <table class="complex">
+                        <tr>
+                            <th>Position</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Years Active</th>
+                            <th>Salary</th>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="none">Defenders</td>
+                            <td>Paolo Maldini</td>
+                            <td>$10,000,000</td>
+                            <td>25 Years</td>
+                            <td>$1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td>Franco Baresi</td>
+                            <td>fbaresi@milan.com</td>
+                            <td>25 Years</td>
+                            <td>$1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td>Allesandro Nesta</td>
+                            <td>anesta@Milan.com</td>
+                            <td>3 years</td>
+                            <td>$1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="none">Midfielders</td>
+                            <td>Rafa Leo</td>
+                            <td>rleo@Milan.com</td>
+                            <td>2 Years</td>
+                            <td>$1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td>Andrea Pirlo</td>
+                            <td>apilro@milan.com</td>
+                            <td>10 Years</td>
+                            <td>$1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td>Chritian Pulisic</td>
+                            <td>cpulisic@Milan.com</td>
+                            <td>6 Months</td>
+                            <td>$1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2" class="none">Forwards</td>
+                            <td>Andriy Shevchenko</td>
+                            <td>ashevchenko@milan.com</td>
+                            <td>4 years</td>
+                            <td>$1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td>Riccardo Kaka</td>
+                            <td>rkaka@milan.com</td>
+                            <td>8 Years</td>
+                            <td>$1,000,000</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Total Anually Salary</td>
+                            <td colspan="2">$8,000,000</td>
+                        </tr>
+                    </table> 
+                </figure>      
+            </main>
+        </div>
+        <hr>
+        <div>
+            <footer>
+                <div data-include="components/footer.html"></div>
+            </footer>
+        </div>
+        <!--Script tags. Insures the entire body of content has loaded before attempting to run scripts
+        Each line refrences a call to the document object and more but uhhhh, yeah-->
+        <script>
+            document.getElementById("validation-button-html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation-button-css").setAttribute("href","https://jigaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+        <script src="scripts/html.include.min.js">
+        </script>
+    </body>
+</html>
