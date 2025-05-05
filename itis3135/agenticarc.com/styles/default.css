@@ -55,3 +55,7 @@ body {
     margin: 0 auto;
     display: block;
   }
+  video {
+    display: block;
+    margin: 0 auto;
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AgenticArc Video</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles/default.css">
+    </head>
+    <body>
+        <div>
+            <header>
+                <div data-include="components/header.html"></div>               
+            </header>
+        </div>
+        <hr>
+        <div>
+            <main>
+                <h2>Video</h2>
+                <video controls width="600">
+                    <source src="images/clientvideo.mp4" type="video/mp4">
+                </video>
+            </main>
+        </div>
+        <hr>
+        <div>
+            <footer>
+                <div data-include="components/footer.html"></div>
+            </footer>
+        </div>
+        <script>
+            document.getElementById("validation-button-html").setAttribute("href","https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation-button-css").setAttribute("href","https://jigaw.w3.org/css-validator/validator?uri=" + location.href);
+        </script>
+        <script src="scripts/html.include.min.js">
+        </script>
+    </body>
+</html>
+
